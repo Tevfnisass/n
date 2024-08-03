@@ -1,4 +1,3 @@
---[[ Settings dont do none rn]]
 local function initui()
 	-- Instances: 29 | Scripts: 0 | Modules: 0
 	local G2L = {};
