@@ -631,7 +631,7 @@ spawn(function()
     end
     local loader = initloader()
     loader.UI.Join.MouseButton1Click:Connect(function()
-        setclipboard("https://discord.gg/c3AbX3GXsr")
+        setclipboard("https://youtube.com")
         a()
         loader:Destroy()
     end)
