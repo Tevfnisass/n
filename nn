@@ -1,34 +1,4 @@
---[[ simple bypass
-BEFORE YOU USE: im not trying to make a good bypasser this is just something i made for fun, i dont care how bad or how good it is
-
-CHANGE LOG:
-[7/14/24 | +] Modern UI
-[7/14/24 | +] Support for every english character
-[7/15/24 | +] Replaced some characters and made it WAY better
-[7/15/24 | +] Added support for LegacyChatService
-[7/15/24 | +] Added support for lowercase characters (uppercase is better than lowercase)
-[7/15/24 | -] Messages arnt automatically made uppercase anymore
-[7/16/24 | +] Fixed the characters `R, S, U`
-
-INFO:
-settings button does nothing rn,
-while making v1 and v2 in the span of 3 days i havent been banned or gotten a warning about bypassing chat only a warning for spamming, so you shouldnt get banned while using this
-
-version: 2.3
-
-888888b. Y88b   d88P       .d8888b.  888    d8P  8888888 8888888b.  8888888888 
-888  "88b Y88b d88P       d88P  Y88b 888   d8P     888   888   Y88b 888        
-888  .88P  Y88o88P        Y88b.      888  d8P      888   888    888 888        
-8888888K.   Y888P          "Y888b.   888d88K       888   888   d88P 8888888    
-888  "Y88b   888              "Y88b. 8888888b      888   8888888P"  888        
-888    888   888                "888 888  Y88b     888   888 T88b   888        
-888   d88P   888          Y88b  d88P 888   Y88b    888   888  T88b  888        
-8888888P"    888           "Y8888P"  888    Y88b 8888888 888   T88b 8888888888
-
-(discord): .x6x6
-(scriptblox): SkireScripts (https://scriptblox.com/u/SkireScripts)
-(server): https://discord.gg/c3AbX3GXsr
-]]
+--[[ Settings dont do none rn]]
 local function initui()
 	-- Instances: 29 | Scripts: 0 | Modules: 0
 	local G2L = {};
@@ -130,7 +100,7 @@ local function initui()
 	G2L["c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 	G2L["c"]["Size"] = UDim2.new(0.8493150472640991, -33, 1, 0);
 	G2L["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-	G2L["c"]["Text"] = [[SimpleBypass]];
+	G2L["c"]["Text"] = [[Ez Byepass]];
 	G2L["c"]["Name"] = [[header]];
 	G2L["c"]["BackgroundTransparency"] = 1;
 	G2L["c"]["Position"] = UDim2.new(0, 33, 0, 2);
@@ -347,7 +317,7 @@ local function initloader()
     G2L["7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
     G2L["7"]["Size"] = UDim2.new(0.8493150472640991, -33, 1, 0);
     G2L["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-    G2L["7"]["Text"] = [[SimpleBypass]];
+    G2L["7"]["Text"] = [[Ez Byepass]];
     G2L["7"]["Name"] = [[header]];
     G2L["7"]["BackgroundTransparency"] = 1;
     G2L["7"]["Position"] = UDim2.new(0, 33, 0, 2);
@@ -391,7 +361,7 @@ local function initloader()
     G2L["b"]["TextColor3"] = Color3.fromRGB(166, 166, 166);
     G2L["b"]["Size"] = UDim2.new(0, 154, 0, 30);
     G2L["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-    G2L["b"]["Text"] = [[Skire - Only dev]];
+    G2L["b"]["Text"] = [[Kitler_R:Only developer]];
     G2L["b"]["Name"] = [[Skire]];
     G2L["b"]["BackgroundTransparency"] = 1;
     G2L["b"]["Position"] = UDim2.new(0, 41, 0, 74);
@@ -406,7 +376,7 @@ local function initloader()
     G2L["c"]["TextColor3"] = Color3.fromRGB(166, 166, 166);
     G2L["c"]["Size"] = UDim2.new(0, 154, 0, 30);
     G2L["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-    G2L["c"]["Text"] = [[Based - No reason]];
+    G2L["c"]["Text"] = [[Alexz - Miss him]];
     G2L["c"]["Name"] = [[Based]];
     G2L["c"]["BackgroundTransparency"] = 1;
     G2L["c"]["Position"] = UDim2.new(0, 41, 0, 94);
@@ -438,7 +408,7 @@ local function initloader()
     G2L["f"]["Size"] = UDim2.new(0, 233, 0, 19);
     G2L["f"]["Name"] = [[Nevermind]];
     G2L["f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-    G2L["f"]["Text"] = [[NO, I HATE YOU]];
+    G2L["f"]["Text"] = [[FAWK NO KYS]];
     G2L["f"]["Position"] = UDim2.new(0, 9, 1, -19);
     G2L["f"]["BackgroundTransparency"] = 1;
 
@@ -456,7 +426,7 @@ local function initloader()
     G2L["11"]["TextColor3"] = Color3.fromRGB(166, 166, 166);
     G2L["11"]["Size"] = UDim2.new(0, 154, 0, 30);
     G2L["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-    G2L["11"]["Text"] = [[YTeber112 - idk]];
+    G2L["11"]["Text"] = [[Skil - Sk4lled]];
     G2L["11"]["Name"] = [[YTeber]];
     G2L["11"]["BackgroundTransparency"] = 1;
     G2L["11"]["Position"] = UDim2.new(0, 41, 0, 116);
@@ -471,7 +441,7 @@ local function initloader()
     G2L["12"]["TextColor3"] = Color3.fromRGB(166, 166, 166);
     G2L["12"]["Size"] = UDim2.new(0, 154, 0, 30);
     G2L["12"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-    G2L["12"]["Text"] = [[Vxsty - Being awesome sauce]];
+    G2L["12"]["Text"] = [[Me - Cause why tf not.]];
     G2L["12"]["Name"] = [[Bat]];
     G2L["12"]["BackgroundTransparency"] = 1;
     G2L["12"]["Position"] = UDim2.new(0, 41, 0, 137);
