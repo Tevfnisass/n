@@ -52,8 +52,3 @@ end)
 CreditsSection:CreateButton("And I", function()
     print("Its just Me, Myself, and I")
 end)
-
--- Unluckify Server Button in Credits Section
-CreditsSection:CreateButton("Unluckify Server", function()
-    setclipboard("https://discord.com/invite/unluckify")
-end)
