@@ -1,0 +1,59 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Admin Rng | Kitler_s Adventure")
+local MainSection = PhantomForcesWindow:NewSection("Main")
+local CreditsSection = PhantomForcesWindow:NewSection("Credits")
+
+local autoRollActive = false
+local autoRollFastActive = false
+
+-- Auto Roll Toggle in Main Section
+MainSection:CreateToggle("Auto Roll", function(value)
+    autoRollActive = value
+    spawn(function()
+        while autoRollActive do
+            game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Spin"):InvokeServer(true)
+            wait(1) -- Delay set to 1 second
+        end
+    end)
+end)
+
+-- Auto Roll (Fast) Toggle in Main Section
+MainSection:CreateToggle("Auto Roll (Fast)", function(value)
+    autoRollFastActive = value
+    spawn(function()
+        while autoRollFastActive do
+            game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Spin"):InvokeServer(true)
+            wait(0.1) -- Delay set to 0.1 second (100 milliseconds)
+        end
+    end)
+end)
+
+-- Infinite Yield Button in Main Section
+MainSection:CreateButton("Infinite Yield", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+-- Console Button in Main Section
+MainSection:CreateButton("Console", function()
+    game:GetService("StarterGui"):SetCore("DevConsoleVisible", true)
+end)
+
+-- Made By Me Button in Credits Section
+CreditsSection:CreateButton("Me", function()
+    print("Sup")
+end)
+
+-- Auto Roll By Myself Button in Credits Section
+CreditsSection:CreateButton("Myself", function()
+    print("Discord :D")
+end)
+
+CreditsSection:CreateButton("And I", function()
+    print("Its just Me, Myself, and I")
+end)
+
+-- Unluckify Server Button in Credits Section
+CreditsSection:CreateButton("Unluckify Server", function()
+    setclipboard("https://discord.com/invite/unluckify")
+end)
